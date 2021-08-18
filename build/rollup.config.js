@@ -90,7 +90,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.js',
     external,
     output: {
-      file: 'dist/vue-design-system.esm.js',
+      file: 'dist/@bloomcu/vue-design-system.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -122,7 +122,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-design-system.ssr.js',
+      file: 'dist/@bloomcu/vue-design-system.ssr.js',
       format: 'cjs',
       name: 'VueDesignSystem',
       exports: 'auto',
@@ -145,7 +145,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-design-system.min.js',
+      file: 'dist/@bloomcu/vue-design-system.min.js',
       format: 'iife',
       name: 'VueDesignSystem',
       exports: 'auto',
