@@ -1,18 +1,19 @@
 <script>
 import { defineComponent } from 'vue';
 // Uncomment import and local "components" registration if library is not registered globally.
-// import { VueDesignSystemSample } from '@/entry.esm';
+// import { AppButton } from '@/entry.esm';
 
 export default defineComponent({
   name: 'ServeDev',
   // components: {
-  //  VueDesignSystemSample,
+  //  AppButton,
   // }
 });
 </script>
 
 <template>
   <div id="app">
-    <vue-design-system-sample />
+    <app-button />
+    <app-input />
   </div>
 </template>
