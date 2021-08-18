@@ -1,6 +1,6 @@
 {
   "name": "@bloomcu/vue-design-system",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Vue component library based on CodyHouse UI.",
   "main": "dist/@bloomcu/vue-design-system.ssr.js",
   "browser": "dist/@bloomcu/vue-design-system.esm.js",
